@@ -1,4 +1,4 @@
-# MauiThemeDemo
+# .NET MAUI: Light and Dark Mode with AppThemeBinding
 
 A small .NET MAUI sample that shows light and dark mode with `AppThemeBinding`. It is the companion project for a blog post, so the code is kept simple: no MVVM libraries and no extra NuGet packages.
 
