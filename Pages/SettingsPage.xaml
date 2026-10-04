@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="MauiThemeDemo.Pages.SettingsPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="Settings">
+
+    <VerticalStackLayout Padding="20" Spacing="12">
+
+        <Label Text="Appearance" FontSize="20" FontAttributes="Bold" />
+        <Label x:Name="SelectedLabel" Style="{StaticResource SecondaryLabel}" />
+
+        <Button Text="Use system setting" Clicked="OnSystemClicked" />
+        <Button Text="Light" Clicked="OnLightClicked" />
+        <Button Text="Dark" Clicked="OnDarkClicked" />
+
+    </VerticalStackLayout>
+
+</ContentPage>

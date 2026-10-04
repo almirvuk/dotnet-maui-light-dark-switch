@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+  <!-- Crescent moon: light artwork, shown on dark backgrounds (dark theme) -->
+  <path fill="#AC99EA" d="M27.85 9.11A21 21 0 1 0 50.55 34.33A17 17 0 0 1 27.85 9.11Z"/>
+  <circle cx="48" cy="13" r="2.4" fill="#AC99EA"/>
+  <circle cx="41" cy="24" r="1.6" fill="#AC99EA"/>
+</svg>

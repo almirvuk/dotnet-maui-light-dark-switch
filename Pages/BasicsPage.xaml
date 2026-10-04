@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="MauiThemeDemo.Pages.BasicsPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="Basics">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="12">
+
+            <!-- Example 1: Light and Dark values set inline -->
+            <Label Text="1. Inline AppThemeBinding with Light and Dark values:" />
+            <Label
+                Text="Hello, themes demo!"
+                FontSize="20"
+                Padding="12"
+                TextColor="{AppThemeBinding Light=Black, Dark=White}"
+                BackgroundColor="{AppThemeBinding Light=White, Dark=Black}" />
+
+            <!-- Example 2: Default is used for any theme you don't list (here: Light) -->
+            <Label Text="2. Default is used when the current theme has no value of its own:" Margin="0,16,0,0" />
+            <Label
+                Text="Gray in light mode, LightGray in dark mode"
+                FontSize="20"
+                TextColor="{AppThemeBinding Default=Gray, Dark=LightGray}" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

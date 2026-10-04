@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="MauiThemeDemo.Pages.StyledPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="Styled">
+
+    <!-- No colors on this page: everything comes from Resources/Styles -->
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="16">
+
+            <Image
+                Source="{AppThemeBinding Light=logo_dark.png, Dark=logo_light.png}"
+                HeightRequest="60" />
+
+            <Label Text="Welcome back" FontSize="24" />
+            <Label Text="Here is what's new since your last visit." Style="{StaticResource SecondaryLabel}" />
+
+            <Border Style="{StaticResource Card}">
+                <VerticalStackLayout Spacing="6">
+                    <Label Text="Your weekly summary" FontAttributes="Bold" />
+                    <Label Text="This card uses the Surface color, so it stands out from the page in both light and dark mode." Style="{StaticResource SecondaryLabel}" />
+                </VerticalStackLayout>
+            </Border>
+
+            <Button Text="Continue" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

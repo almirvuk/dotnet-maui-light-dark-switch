@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+  <!-- Sun: dark artwork, shown on light backgrounds (light theme) -->
+  <circle cx="30" cy="30" r="11" fill="#512BD4"/>
+  <path fill="none" stroke="#512BD4" stroke-width="4" stroke-linecap="round"
+        d="M47 30L54 30 M42 42L47 47 M30 47L30 54 M18 42L13 47 M13 30L6 30 M18 18L13 13 M30 13L30 6 M42 18L47 13"/>
+</svg>
