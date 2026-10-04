@@ -30,11 +30,13 @@ Where to look:
 
 ```bash
 # Android (starts on the running emulator or connected device)
-dotnet build -t:Run -f net10.0-android
+dotnet build MauiThemeDemo.csproj -t:Run -f net10.0-android
 
 # iOS simulator
-dotnet build -t:Run -f net10.0-ios
+dotnet build MauiThemeDemo.csproj -t:Run -f net10.0-ios
 ```
+
+Or open `MauiThemeDemo.slnx` in Visual Studio 2022 (17.13+) or Rider, pick a device and press Run. In VS Code, open the folder and press F5.
 
 ## Switching dark mode on and off
 
